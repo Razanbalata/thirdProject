@@ -36,19 +36,21 @@
 
 /* home section */
 
-.container{
-height: 120vh;
-background-image: url(image/hamburger.jpg);
-background-size: cover;
-}
 .home1{
-    position: relative;
-   
+  position: relative;
+ 
 }
-.home1-title{
-    position: absolute;
-   left: 0;
-   bottom: 0;
+.home1-header{
+  position: absolute;
+ left: 0;
+ bottom: 0;
+}
+.home1-header{
+  letter-spacing: 4px;
+  opacity: .6;
+  padding: 12px 24px;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 /* about section*/
@@ -109,21 +111,24 @@ background-size: cover;
     max-width: 1100px;
     width: 80%;
     margin: auto;
+    padding: 64px 0;
   }
   .menu-info{
     overflow: hidden;
-    padding: 64px 0;
+    padding: 12px 24px;
   }
   .menu-desc{
-    width: 65%;
+    width: 60%;
     float: left;
-    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    margin: 10px 0;
   }
   .menu-img{
-    width: 35%;
+    width: 40%;
     float: left;
     opacity: .5;
+   
   }
   .menu-img img{
     width: 100%;
@@ -135,13 +140,16 @@ background-size: cover;
     margin: 10px 0;
   }
   .menu-item{
-    padding: 20px;
+    margin: 10px 0;
     font-weight: 400;
+    letter-spacing: 4px;
+    
   }
-  .menu-info .menu-desc h5{
+  .menu-info .menu-desc p{
    color: #757575;
    text-transform: capitalize;
-   padding: 10px;
+   margin: 15px 0;
+   font-size: 12px;
   }
 
   /* contact section */
